@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Data from './Quots.json'
 
 let randomNumber = () =>{
-    let number = Math.floor(Math.random() * 102) + 1;
+    let number = Math.floor(Math.random() * 102);
     return number;
 }
 
