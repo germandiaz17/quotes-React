@@ -1,5 +1,5 @@
 import './App.css';
-import Quots from './components/QuotsBox';
+import Quots from './QuotsBox';
 function App() {
   return (
     <div className = 'content'>
