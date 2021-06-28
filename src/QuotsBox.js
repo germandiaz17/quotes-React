@@ -12,8 +12,13 @@ const Quots = () => {
 
     return(
         <div className='quote-box'>
-            <h4>"{phrase[state].quote}"</h4>
-            <p>"{phrase[state].author}"</p>
+            <div className='phrase'>
+                <h4>"{phrase[state].quote}"</h4>
+            </div>
+
+            <div className='author'>
+                <p>"{phrase[state].author}"</p>
+            </div>
             <button className='change' type='button' onClick={() => {setState(randomNumber())}}>New quote</button>
         </div>
     )

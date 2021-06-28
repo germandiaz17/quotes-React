@@ -33,3 +33,13 @@ body{
   cursor: pointer;
   color: white;
 }
+
+.phrase{
+  height: 100px;
+}
+
+.author{
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: flex-end;
+}
